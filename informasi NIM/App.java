@@ -24,7 +24,7 @@ public class App {
         String kodeUrutan = nim.substring(5, 8);
         int urutan = Integer.parseInt(kodeUrutan);
 
-        System.out.println("Inforamsi NIM " + nim + ": ");
+        System.out.println("Informasi NIM " + nim + ": ");
         System.out.println(">> Program Studi: " + prodi);
         System.out.println(">> Angkatan: " + angkatan);
         System.out.println(">> Urutan: " + urutan);
@@ -39,7 +39,7 @@ public class App {
             case "22S": return "Sarjana Teknik Metalurgi";
             case "31S": return "Sarjana Teknik Bioproses";
             case "32S": return "Sarjana Bioteknologi";
-            case "114": return "Diploma 4 Teknologi Rekasaya Perangkat Lunak";
+            case "114": return "Diploma 4 Teknologi Rekayasa Perangkat Lunak";
             case "113": return "Diploma 3 Teknologi Informasi";
             case "133": return "Diploma 3 Teknologi Komputer";
             default: return null;
